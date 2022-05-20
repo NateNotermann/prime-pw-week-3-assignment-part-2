@@ -107,9 +107,9 @@ while ( i < newLength ) {
 console.log(' ---3.a ANWERS 2 - START---- ');
 i = 0; // just ASSIGNING new VALUE to i, not creating a new variable
 console.log( '"newLength" variable is:', newLength ); //console.log that value. Stars arrays has 5 items, newLength should equal stars
-while ( i < newLength ) {
-  console.log( 'listing stars items v2:', stars[i] );
-  i++;
+while ( i < newLength ) { //while the value of i is LESS than the value of variable "newlength", do thing
+  console.log( 'listing stars items v2:', stars[i] ); //console.log test + the current INDEX ITEM of STARS
+  i++; // increment i
 } 
 //---------3.a ANWERS 2 - STOP--------------
 console.log( '//--------3.a DONE ---------' );
@@ -119,20 +119,28 @@ console.log( '---3.b ----');
 console.log('count from 0 to 5');
 //answer 1
 console.log( '--3.b answer 1--');
-i = 0;
-while ( i<6 ) {
-  console.log( i );
-  i++;
+i = 0; // assigns VALUE of "i" to 0
+while ( i<6 ) { //while i value is LESS than 6, do this -->
+  console.log( i ); //console.log value of "i"
+  i++; // increment i
 }
 
 console.log( '--3.b answer 2--');
 i = 0;
 while ( i<=5 ) { // same as answer 1, just uses different math. 
   //instead of LESS THAN 6, uses LESS or EQUAL TO 5. 
-  console.log( i );
-  i++;
+  console.log( i ); //console.log value of "i"
+  i++; // increment i
 }
 console.log( '//--------3.b DONE ---------' );
 
 // 3.c. TODO: Write a while loop to console.log the numbers from 10 to 5
 console.log('count backwards from 10 to 5');
+
+i = 10; //ASSIGN VALUE of i to 10
+while ( i >=5 ) { //while value of "i" is GREATER and/or EQUAL to 5, do thing
+  console.log( i ); //console.log current value of i
+  i--; //decrement "i"
+} 
+console.log( '//--------3.c DONE ---------' );
+console.log( ' woohoo! done with part 2!!! ' );
