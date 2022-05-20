@@ -112,10 +112,27 @@ while ( i < newLength ) {
   i++;
 } 
 //---------3.a ANWERS 2 - STOP--------------
-
+console.log( '//--------3.a DONE ---------' );
 
 // 3.b. TODO: Write a while loop to console.log the numbers from 0 to 5
+console.log( '---3.b ----');
 console.log('count from 0 to 5');
+//answer 1
+console.log( '--3.b answer 1--');
+i = 0;
+while ( i<6 ) {
+  console.log( i );
+  i++;
+}
+
+console.log( '--3.b answer 2--');
+i = 0;
+while ( i<=5 ) { // same as answer 1, just uses different math. 
+  //instead of LESS THAN 6, uses LESS or EQUAL TO 5. 
+  console.log( i );
+  i++;
+}
+console.log( '//--------3.b DONE ---------' );
 
 // 3.c. TODO: Write a while loop to console.log the numbers from 10 to 5
 console.log('count backwards from 10 to 5');
